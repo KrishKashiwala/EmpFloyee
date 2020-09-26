@@ -1,0 +1,651 @@
+ <!-- Created by Krish Kashiwala -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+body, html {
+    background-image:url("backGround.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+    height: 100%; 
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.webintern-footer {
+background: #0d2034;
+}
+
+.webintern-footer-inner {
+padding-top: 80px;
+padding-bottom: 50px;
+}
+
+.webintern-footer-logo {
+display: inline-block;
+}
+
+.webintern-footer .webintern-footer-inner .simple-text p {
+color: #fff;
+margin-top: 20px;
+margin-bottom: 15px;
+}
+.simple-text p {
+font-size: 15px;
+color: #42435d;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 0;
+}
+
+.webintern-footer .webintern-footer-inner .simple-text a {
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+color: #f2c21a;
+font-size: 15px;
+}
+.footer-2 {
+padding-left: 55px;
+}
+.webintern_footer_title {
+margin-top: 0px;
+margin-bottom: 25px;
+}
+.webintern_footer_title small {
+font-family: 'Work Sans', sans-serif;
+color: #fff;
+font-weight: 700;
+font-size: 18px;
+text-transform: uppercase;
+}
+.webintern_footer_title:after {
+content: '';
+display: block;
+width: 30px;
+height: 2px;
+background: #f2c21a;
+margin-top: 15px;
+}
+.webintern-footer-list {
+padding: 0;
+}
+.webintern-footer-list li {
+margin-bottom: 17px;
+list-style: none;
+}
+.webintern-footer-list a {
+position: relative;
+font-size: 15px;
+line-height: 18px;
+color: #fff;
+padding-left: 0;
+letter-spacing: 0.20px;
+font-family: 'Open Sans', sans-serif;
+}
+.footer-3 {
+padding-left: 65px;
+}
+.webintern-footer-inner .simple-text.last {
+color: #d5d5d5;
+font-size: 17px;
+font-style: italic;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+}
+.tt-subscribe {
+position: relative;
+}
+.tt-subscribe input:not([type="submit"]) {
+width: 100%;
+height: 46px;
+background: #fff;
+font-size: 15px;
+color: #838486;
+padding-left: 20px;
+padding-right: 70px;
+border: 2px solid #fff;
+-moz-border-radius: 3px;
+border-radius: 3px;
+
+}
+.tt-subscribe-submit {
+background: #001b57;
+}
+
+.tt-subscribe-submit {
+position: absolute;
+top: 0;
+right: 0;
+width: 52px;
+height: 46px;
+font-size: 18px;
+line-height: 46px;
+color: #2a2a2a;
+text-align: center;
+background: #001b57;
+-moz-border-radius-topright: 3px;
+border-top-right-radius: 3px;
+-moz-border-radius-bottomright: 3px;
+border-bottom-right-radius: 3px;
+}
+
+
+.tt-subscribe-submit i.fa-envelope:before {
+content: "\f0e0";
+position: relative;
+z-index: 1;
+color: #fff;
+}
+.tt-subscribe-submit input {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #51658d;
+border: 0;
+}
+ul.tt-socail {
+padding: 0;
+margin-top: 30px;
+}
+.tt-socail li {
+display: inline-block;
+margin-right: 10px;
+}
+.tt-socail a {
+display: block;
+width: 36px;
+height: 36px;
+font-size: 17px;
+line-height: 34px;
+color: #fff;
+text-align: center;
+border: 1px solid #fff;
+-moz-border-radius: 100%;
+border-radius: 100%;
+}
+.webintern_footer_title small {
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.tt-copy
+{
+font-size: 15px;
+line-height: 20px;
+color: #fff;
+background: #51658d;
+padding: 30px 0;
+font-family: 'Open Sans', sans-serif;
+}
+.tt-copy-right {
+text-align: right;
+}
+
+        container{
+            background-color: black;
+        }
+        .back{
+                background-color:#1C2331;
+                color:white;
+        }
+     
+        .ourTeam-hedding{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../demo/hands-joined.jpg');
+    height:200px;
+    width:100%;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background: linear-gradient(rgba(0,0,0,.10)); 
+}
+.ourTeam-hedding h1{
+    color:#fff;
+    padding:70px 0px;
+    font-weight:900;
+    z-index: 1;
+}
+.ourTeam-box{
+    border-top: 6px solid #5DDDD3;
+    background-color: black;
+    z-index:3;
+}
+.section1{
+    padding: 30px 0px 0px 0px;
+}
+.section1 img{
+    border:5px solid #5DDDD3;
+    padding:5px;
+    border-radius:50%;
+    height:170px;
+    width: 170px;
+}
+.section2 h1{
+    font-size:20px;
+    color:white;
+    margin:0px;
+    border-bottom:2px solid #5DDDD3;
+    display: inline-block;
+    padding: 10px 0px;
+}
+.section2 p{
+    background-color: #5DDDD3;
+    display: inline-block;
+    font-weight: bold;
+    color:#fff;
+    padding: 5px 15px;
+    border-radius: 3px;
+    margin-top: -20px;    
+}
+.section2 span{
+    color:white;
+}
+.section2 label{
+    background-color: #5DDDD3;
+    padding: 8px 10px 8px 10px;
+    color:#fff;
+    font-weight: normal;
+    margin: 30px 0px 35px 0px;
+    border-radius: 2px;
+}
+.section3 p{
+    padding: 10px 15px 0px 15px;
+    font-size:12px;
+    color:black;
+}
+.section4{
+    padding:10px 0px 50px 0px;
+}
+.section4 i{
+    color:#fff;
+    padding:3px;
+    border-radius: 2px; 
+    font-size: 12px;
+    background-color: #5DDDD3;
+    cursor: pointer;
+}
+.section-info{
+    border-top:6px solid #90DFAA;
+}
+.section-danger{
+    border-top:6px solid #FD8469;
+}
+.section-info .section1 img{
+    border:5px solid black;
+    padding:5px;
+}
+.section-info .section2 p{
+    background-color: black;
+    color:#fff;
+}
+.section-danger .section2 p{
+    background-color: #FD8469;
+    color:#fff;
+}
+.section-danger .section1 img{
+    border:5px solid #FD8469;
+    padding:5px;
+}
+.section-info .section4 i{
+    background-color: #90DFAA;  
+}
+.section-danger .section4 i{
+    background-color: #FD8469;  
+}
+.section-info .section2 h1{
+    border-bottom:2px solid black;
+}
+.section-danger .section2 h1{
+    border-bottom:2px solid #FD8469;
+}
+.colors{
+    color:black;
+}
+.about-section {
+    background-image: url("sback1.jpeg");
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  
+}
+.title {
+  color: grey;
+}
+
+.header {
+  padding: 100px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 30px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.content {
+    text-align:center;
+    padding:20px;
+    margin-top: 30px;
+    color:white;
+}
+.content p{
+   font-family: 'Tisa';
+}
+.content h1{
+    font-family:'sofia';
+}
+.icon-bar {
+    
+  width: 100%;
+   white-space: nowrap;;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+    
+    height: 50%; 
+  
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.panel {
+    border: 1px solid black; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+    color:white;    
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid black;
+    background-color: #fff !important;
+    color: black;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: black !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+   
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+   
+  }
+  
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  font-size:80px;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 1000px;
+  padding: 20px;
+  text-align: left;
+  margin-right:800px;
+}
+
+
+    </style>
+<head>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Place to Learn.</title>
+</head>
+<body>
+    
+  <div class="icon-bar ">
+    <a  href="index.html"><i class="fa fa-home"></i></a> 
+    <a href="#"><i class="fa fa-user"></i></a> 
+    <a href="#"><i class="fa fa-bell"></i></a> 
+    <a href="#"><i class="fa fa-globe"></i></a>
+    <a href="https://www.github.com/KrishKashiwala"><i class="fa fa-github"></i></a> 
+  </div>
+   
+   <div class="bg-image img1"></div>
+<div class="bg-image img2"></div>
+
+
+   <div class="bg-text">
+     <h1><i>EmpFloyee</i></h1>
+     <p style="font-size:20px"><i>Employee Management System is a distributed application,  developed to maintain the details of employees working in any  organization.
+    </i></p>
+    
+   </div>
+  
+</div>
+</div>
+<div class="container section-ourTeam ">
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12 ourTeam-hedding text-center">
+			<h1><strong>Meet Our Team</strong> </h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 col-sm-4 col-xs-12">
+			<div class="row section-success ourTeam-box text-center">
+				<div class="col-md-12 section1">
+					<img src="rushiPhoto.png" style="height: 400px; width:350px">
+				</div>
+				<div class="col-md-12 section2">
+					<p>Rushi Donga</p><br>
+					<h1>Flutter Developer</h1><br>
+				</div>
+				<!-- <div class="col-md-12 section3 colors">
+					<p>
+						hey , developers out there!
+					</p>
+				</div> -->
+				<div class="col-md-12 section4">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i>
+                        <a href="https://github.com/RushiDonga"><i class="fa fa-github"></i>
+                        <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i>
+                            <a href="https://www.instagram.com/stuart_49_/"><i class="fa fa-instagram"></i>
+                            
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-12">
+			<div class="row section-info ourTeam-box text-center">
+				<div class="col-md-12 section1">
+					<img src="in13_1.jpeg" style="height: 400px; width:350px">
+				</div>
+				<div class="col-md-12 section2">
+					<p>Krish Kashiwala</p><br>
+					<h1>Web Developer</h1><br>
+				</div>
+				<!-- <div class="col-md-12 section3"> -->
+					<!-- <p>
+						hey , developers out there!
+					</p> -->
+				<!-- </div> -->
+				<div class="col-md-12 section4">
+                    <a href="https://www.facebook.com/monalisa.kashiwala"><i class="fa fa-facebook-official"></i>
+                        <a href="https://github.com/KrishKashiwala"><i class="fa fa-github"></i>
+                        <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i>
+                            <a href="https://www.instagram.com/its._.kishu/"><i class="fa fa-instagram"></i>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-12">
+			<div class="row section-danger ourTeam-box text-center">
+				<div class="col-md-12 section1">
+					<img src="sonali.jpeg"style="height: 400px; width:350px">
+				</div>
+				<div class="col-md-12 section2">
+					<p>Sonali Gorajya </p><br>
+					<h1>Lead</h1>
+				</div>
+			
+				<div class="col-md-12 section4">
+                   
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i>
+                        <a href="https://github.com/"><i class="fa fa-github"></i>
+                        <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i>
+                            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i>
+				</div>
+			</div>
+		</div>
+    </div>
+    </div>
+    
+   
+    
+    <footer class="webintern-footer">
+    <div class="webintern-footer-inner">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-6 col-md-3 ">
+    <a class="webintern-footer-logo" href="#">
+    <img class="img-responsive" src="logo.png" style="width:100px;" alt="">
+    </a>
+    <div class="simple-text dark padding-sm">
+    <p>Employee Management System is a distributed application,  developed to maintain the details of employees working in any  organization.
+    </p>
+    </div>
+    <div class="empty-space xs-25 sm-25"></div>
+    </div>
+    <div class="col-sm-6 col-md-2 footer-2">
+   
+    <h4 class="webintern_footer_title h5"><small>Quick Links</small></h4>
+    <ul class="webintern-footer-list">
+    <li><a href="index.html">Home</a></li>
+    
+    
+    
+    
+    <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="empty-space xs-25 sm-25"></div>
+    </div>
+    <div class="col-sm-6 col-md-3 footer-3">
+   
+    <h4 class="webintern_footer_title h5"><small> Resources</small></h4>
+    <ul class="webintern-footer-list">
+    <li><a href="#">HTML / CSS / JS </a></li>
+    <li><a href="#">Bootstrap</a></li>
+    <li><a href="#">Flutter</a></li>
+    <li><a href="#">Firebase</a></li>
+    <li><a href="#">Android</a></li>
+  
+    </ul>
+    <div class="empty-space xs-25"></div>
+    </div>
+    <div class="col-xs-12 col-md-4 col-sm-6">
+    <div class="marg-sm-b30"></div>
+    
+    <h4 class="webintern_footer_title h5"><small>Subscribe Newsletter</small></h4>
+    <div class="empty-space marg-lg-b20"></div>
+    
+    <div class="empty-space marg-lg-b15"></div>
+    
+    <form method="post">
+    <div class="tt-subscribe">
+    <input type="text" required="" placeholder="Enter your email">
+    <div class="tt-subscribe-submit">
+        <a href ="thanks.html"></a><i class="fa fa-envelope" aria-hidden="true"></i>
+    <input type="submit" value="">
+    </div>
+    </div>
+    </form>
+    <div class="empty-space marg-lg-b30"></div>
+    
+    <ul class="tt-socail">
+    <li><a href="https://www.facebook.com/monalisa.kashiwala"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/krish-kashiwala-3952351b5/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+    <li><a href="https://twitter.com/KrishKashiwala1"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    <li><a href="https://www.instagram.com/its._.kishu/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    <li><a href="https://www.github.com/KrishKashiwala"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="tt-copy">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-6">
+    <div class="tt-copy-left">Copyright ©EmFloyee 2020. All rights reserved. </div>
+    </div>
+    <div class="col-sm-6">
+    <!-- <div class="tt-copy-right">
+    Created by: Krish Kashiwala 
+    </div> -->
+    </div>
+    </div>
+    </div>
+    </div>
+    </footer>
+    
+    
+    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<link rel="icon" href="https://mdbootstrap.com/wp-content/uploads/2016/11/cropped-ms-icon-310x310-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://mdbootstrap.com/wp-content/uploads/2016/11/cropped-ms-icon-310x310-180x180.png">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+
+</body>
+</html>
